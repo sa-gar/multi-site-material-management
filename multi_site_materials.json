@@ -1,0 +1,201 @@
+{
+  "sites": {
+    "L&T Construction Site": {
+      "location": "L&T Construction Site Location",
+      "site_manager": "L&T Site Manager",
+      "contact": "+91-XXXXXXXXXX",
+      "project_type": "L&T Construction Project",
+      "materials": {
+        "asian_fine_putty": {
+          "stock": 40,
+          "used": 0,
+          "unit": "kg",
+          "min_stock": 20,
+          "category": "materials",
+          "rate": 607.7,
+          "code": "AP-PY-03"
+        },
+        "asian_interior_primer": {
+          "stock": 120,
+          "used": 0,
+          "unit": "liters",
+          "min_stock": 50,
+          "category": "materials",
+          "rate": 1416,
+          "code": "AP-PR-01"
+        }
+      },
+      "tools": {
+        "putty_blade_8inch": {
+          "stock": 48,
+          "used": 0,
+          "unit": "pieces",
+          "min_stock": 10,
+          "category": "tools",
+          "rate": 16.225,
+          "code": "HT-PB-08"
+        },
+        "cutting_plier": {
+          "stock": 1,
+          "used": 0,
+          "unit": "pieces",
+          "min_stock": 2,
+          "category": "tools",
+          "rate": 150.0,
+          "code": "HT-CP-001"
+        }
+      },
+      "accessories": {
+        "helmet": {
+          "stock": 6,
+          "used": 0,
+          "unit": "pieces",
+          "min_stock": 10,
+          "category": "accessories",
+          "rate": 88.5,
+          "code": "SA-HE-001"
+        },
+        "safety_jacket_orange": {
+          "stock": 4,
+          "used": 0,
+          "unit": "pieces",
+          "min_stock": 8,
+          "category": "accessories",
+          "rate": 57.75,
+          "code": "SA-SJ-OR"
+        }
+      }
+    },
+    "Karle Construction Site": {
+      "location": "Karle Project Location",
+      "site_manager": "Karle Site Manager",
+      "contact": "+91-YYYYYYYYY",
+      "project_type": "Karle Construction Project",
+      "materials": {
+        "jk_levelmaxx_putty": {
+          "stock": 3600,
+          "used": 0,
+          "unit": "kg",
+          "min_stock": 100,
+          "category": "materials",
+          "rate": 600.03,
+          "code": "JK-PY-01"
+        },
+        "dulux_interior_primer": {
+          "stock": 297,
+          "used": 23,
+          "unit": "liters",
+          "min_stock": 50,
+          "category": "materials",
+          "rate": 1357,
+          "code": "DL-PR-02"
+        }
+      },
+      "tools": {
+        "putty_blade_4inch": {
+          "stock": 16,
+          "used": 0,
+          "unit": "pieces",
+          "min_stock": 8,
+          "category": "tools",
+          "rate": 6.2894,
+          "code": "HT-PB-04"
+        },
+        "scaffolding": {
+          "stock": 16,
+          "used": 0,
+          "unit": "sets",
+          "min_stock": 5,
+          "category": "tools",
+          "rate": 5000,
+          "code": "EQ-SC-001"
+        }
+      },
+      "accessories": {
+        "fall_arrester": {
+          "stock": 6,
+          "used": 0,
+          "unit": "pieces",
+          "min_stock": 4,
+          "category": "accessories",
+          "rate": 1475,
+          "code": "SA-FA-001"
+        },
+        "safety_goggles": {
+          "stock": 17,
+          "used": 0,
+          "unit": "pieces",
+          "min_stock": 10,
+          "category": "accessories",
+          "rate": 37.76,
+          "code": "SA-GO-001"
+        }
+      }
+    },
+    "tropica": {
+      "location": "kdsjk",
+      "site_manager": "dfjdsk",
+      "contact": "1234567890",
+      "project_type": "Commercial Construction",
+      "materials": {
+        "jfksdj": {
+          "stock": 16,
+          "used": 0,
+          "unit": "6",
+          "min_stock": 5,
+          "category": "materials",
+          "rate": 100.0,
+          "code": "N/A"
+        },
+        "paint_brush": {
+          "stock": 1,
+          "used": 0,
+          "unit": "200",
+          "min_stock": 1,
+          "category": "materials",
+          "rate": 1000.0,
+          "code": "N/A"
+        }
+      },
+      "tools": {},
+      "accessories": {}
+    }
+  },
+  "transactions": [
+    {
+      "date": "2025-10-09 00:40:32.351865",
+      "type": "added",
+      "site": "tropica",
+      "category": "materials",
+      "item": "jfksdj",
+      "quantity": 1,
+      "supplier": "",
+      "received_by": "Site Manager"
+    },
+    {
+      "date": "2025-10-09 00:42:13.359744",
+      "type": "added",
+      "site": "tropica",
+      "category": "materials",
+      "item": "jfksdj",
+      "quantity": 15,
+      "supplier": "",
+      "received_by": "Site Manager"
+    },
+    {
+      "date": "2025-10-09 01:09:42.642266",
+      "type": "added",
+      "site": "tropica",
+      "category": "materials",
+      "item": "paint_brush",
+      "quantity": 1,
+      "supplier": "",
+      "received_by": "Site Manager"
+    }
+  ],
+  "system_info": {
+    "version": "Multi-Site v4.1",
+    "last_updated": "2025-10-09 00:38:35.563672",
+    "total_sites": 3
+  }
+}
