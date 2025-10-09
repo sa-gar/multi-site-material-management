@@ -174,7 +174,7 @@ def main():
     # Main header
     st.markdown("""
     <div class="main-header">
-        <h1>🏗️ ZOBOCON MATERIAL MANAGEMENT SYSTEM 25</h1>
+        <h1>🏗️rohan MATERIAL MANAGEMENT SYSTEM 25</h1>
         <h2>WELCOME TO ZOBOCON</h2>
     </div>
     """, unsafe_allow_html=True)
