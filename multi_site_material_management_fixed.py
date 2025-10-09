@@ -333,12 +333,8 @@ def show_site_management():
         site_manager = st.text_input("👨‍💼 Site Manager *", key="new_manager", placeholder="e.g., John Doe")
         contact = st.text_input("📞 Contact Number *", key="new_contact", placeholder="e.g., +91-9876543210")
         project_type = st.selectbox("🏗️ Project Type *", [
-            "Commercial Construction",
-            "Residential Construction", 
-            "Infrastructure Project",
-            "Industrial Project",
-            "Renovation Project",
-            "Other"
+            "painting work"
+            
         ], key="new_project_type")
 
         # Add site button
